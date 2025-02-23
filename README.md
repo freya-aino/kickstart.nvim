@@ -64,7 +64,7 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/freya-aino/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone git@github.com:freya-aino/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -74,13 +74,13 @@ git clone https://github.com/freya-aino/kickstart.nvim.git "${XDG_CONFIG_HOME:-$
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/freya-aino/kickstart.nvim.git "%localappdata%\nvim"
+git clone git@github.com:freya-aino/kickstart.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/freya-aino/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone git@github.com:freya-aino/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
